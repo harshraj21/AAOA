@@ -26,7 +26,7 @@ int part(int *arr,int l,int r){
 	}
 	while(i>=j);
 	swap(arr,i,j);
-	swap(arr,l,j);*/
+	swap(arr,l,j);
 	for(j=l;j<=r-1;j++){
 		if(arr[j]<p){
 			i++;
